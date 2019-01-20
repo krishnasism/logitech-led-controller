@@ -10,5 +10,5 @@ python bgled.py
 ```
 
 If you want to develop something like this yourself, Logitech provides and SDK for development. 
-#Download - LED ILLUMINATION SDK
+# Download - LED ILLUMINATION SDK
 ((https://www.logitechg.com/en-in/innovation/developer-lab.html))
