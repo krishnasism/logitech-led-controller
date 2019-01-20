@@ -9,6 +9,7 @@ Simply clone the repository and browse to the folder.
 python bgled.py
 ```
 
-If you want to develop something like this yourself, Logitech provides and SDK for development. 
-# Download - LED ILLUMINATION SDK
+## Download - LED ILLUMINATION SDK
+If you want to develop something like this yourself with Python, Java, C# etc.., Logitech provides and SDK for development. 
+
 ((https://www.logitechg.com/en-in/innovation/developer-lab.html))
