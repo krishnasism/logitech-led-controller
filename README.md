@@ -3,8 +3,13 @@ A simple controller that changes the LED colour of a Logitech device that suppor
 
 This project was made to control my Logitech G102, but I think that this may work with any device that supports RGB.
 
+### Simply clone the repository and browse to the folder.
+
+## Install Requirements
+```
+pip install -r requirements.txt
+```
 ## Running
-Simply clone the repository and browse to the folder.
 ```
 python bgled.py
 ```
