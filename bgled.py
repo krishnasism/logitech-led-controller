@@ -6,16 +6,16 @@ import random
 
 def OnKeyboardEvent(event):
     try:
-        if event.Key=='W':
+        if event.Key == 'W':
             logi_led.logi_led_set_lighting(100, 0, 0)
-        elif event.Key=='S':
-            logi_led.logi_led_set_lighting(0,100,0)
-        elif event.Key=='D':
-            logi_led.logi_led_set_lighting(0,0,100)
-        elif event.Key=='A':
-            logi_led.logi_led_set_lighting(100,0,100)
+        elif event.Key == 'S':
+            logi_led.logi_led_set_lighting(0, 100, 0)
+        elif event.Key == 'D':
+            logi_led.logi_led_set_lighting(0, 0, 100)
+        elif event.Key == 'A':
+            logi_led.logi_led_set_lighting(100 ,0 ,100)
         else:
-            logi_led.logi_led_set_lighting(random.randint(0,100),random.randint(0,100),random.randint(0,100))
+            logi_led.logi_led_set_lighting(random.randint(0, 100), random.randint(0, 100), random.randint(0, 100))
     except Exception as e:
         pass
           
